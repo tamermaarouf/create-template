@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clearFix {
+    clear: both;
+    content: "";
+}
+
+html {
+    color: #555;
+    font-family: "Arial", "Verdana", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+    height: 2000px;
+}
+
+.container {
+    width: 86.6%;
+    margin: 0 auto;
+}
+
+.header .slider {
+    background-color: #555;
+    color: #FFF;
+    height: 600px;
+
+}
+
+.header .navbar {
+    background-color: #252f31;
+    color: #FFF;
+    padding: 5px;
+    overflow: hidden;
+
+}
+
+.header .navbar h2 {
+    float: left
+}
+
+.header .navbar h2 span {
+    color: #2cee71
+}
+
+.header .navbar ul {
+    float: right;
+    list-style: none;
+}
+
+.header .navbar ul li {
+    float: left;
+    padding: 10px;
+}
+
+.featers {
+    overflow: hidden;
+    height: 200px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+
+}
+
+.featers .feater {
+    float: left;
+    width: 33.3333%;
+}
+
+.featers .feater h2 {
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+
+.featers .feater p {
+    font-size: 16px;
+}
+
+.aboutMe {
+    overflow: hidden;
+    background-color: #F2F2F2;
+
+}
+
+.aboutMe .image {
+    float: left;
+    width: 38%;
+    height: 420px;
+    background-color: #555;
+}
+
+.aboutMe .info {
+    float: right;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 62%;
+}
+
+.aboutMe .info .hobbies {
+    overflow: hidden;
+    margin: 20px;
+}
+
+.aboutMe .info .hobbies > div {
+    float: left;
+    width: 50%;
+    min-height: 100px;
+}
+
+.skills {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 345px;
+}
+
+.skills .skill,
+.skills .progress {
+    width: 50%;
+    float: left;
+}
+
+.resume {
+    background-color: #F2F2F2;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.Eductions {
+    padding-top: 30px;
+    padding-top: 30px;
+}
+
+.Eductions .Eduction,
+.Eductions .exp {
+    width: 50%;
+    float: left;
+}
+
+.Eductions .experiences,
+.Eductions .experience {
+    width: 50%;
+    float: left;
+}
+
+/* style testimonials */
+.testimonials {
+    background-color: #F2F2F2;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/* End testimonials  */
