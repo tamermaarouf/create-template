@@ -152,18 +152,19 @@ html {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
 /* End testimonials  */
 
 /*Start Portfolio*/
 
-.portfolio{
+.portfolio {
     overflow: hidden;
     padding-top: 55px;
     padding-bottom: 55px;
     text-align: center;
 }
 
-.portfolio img{
+.portfolio img {
     float: left;
     width: 30%;
     margin: 1.66%;
@@ -171,3 +172,28 @@ html {
 
 
 /*End Portfolio*/
+
+/*Star contact me*/
+
+.contant-me {
+    background-color: #252F31;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.contant-me .info,
+.contant-me .form {
+    width: 50%;
+    float: left;
+}
+
+/*end contact me*/
+
+/*Start footer*/
+.footer{
+    text-align: center;
+    background-color: #191E22;
+    padding: 30px 0;
+}
+/*End Footer*/
