@@ -58,24 +58,27 @@ html {
 
 .featers {
     overflow: hidden;
-    height: 200px;
-    padding-top: 55px;
+    padding-top: 50px;
     padding-bottom: 55px;
-
+    height: 200px;
 }
 
 .featers .feater {
     float: left;
     width: 33.3333%;
+
 }
 
 .featers .feater h2 {
-    text-transform: uppercase;
-    margin-bottom: 22px;
+    color: #555;
+    margin-bottom: 8px;
+
 }
 
 .featers .feater p {
-    font-size: 16px;
+    line-height: 1.7;
+    color: #BBB;
+    padding: 0 20px 0 0;
 }
 
 .aboutMe {
